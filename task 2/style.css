@@ -1,0 +1,153 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+color: #222;
+line-height: 1.5;
+}
+
+.container {
+max-width: 960px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+header {
+background: #1e5aa8;
+color: #fff;
+}
+
+.header-inner {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 12px 20px;
+}
+
+.logo {
+width: 42px;
+height: 42px;
+border-radius: 50%;
+background: #111;
+flex-shrink: 0;
+}
+
+header nav ul {
+display: flex;
+gap: 20px;
+list-style: none;
+}
+
+header nav a {
+color: #fff;
+text-decoration: none;
+}
+
+header nav a:hover {
+text-decoration: underline;
+}
+
+.site-name {
+margin-left: auto;
+font-size: 18px;
+font-weight: bold;
+}
+
+main {
+padding: 30px 20px;
+}
+
+main h1 {
+margin-bottom: 20px;
+}
+
+main h2 {
+margin: 25px 0 12px;
+}
+
+main p {
+margin: 8px 0;
+}
+
+figure {
+margin: 20px 0;
+}
+
+figure img {
+max-width: 100%;
+height: auto;
+display: block;
+border: 1px solid #ccc;
+}
+
+figcaption {
+margin-top: 6px;
+color: #666;
+font-size: 14px;
+}
+
+ol {
+margin: 12px 0 12px 25px;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+margin: 12px 0;
+}
+
+th, td {
+border: 1px solid #999;
+padding: 8px 12px;
+text-align: left;
+}
+
+th {
+background: #1e5aa8;
+color: #fff;
+}
+
+tr:nth-child(even) {
+background: #eef3fa;
+}
+
+form label {
+display: inline-block;
+margin-right: 8px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+width: 100%;
+max-width: 320px;
+padding: 6px;
+border: 1px solid #aaa;
+}
+
+input[type="submit"] {
+background: #1e5aa8;
+color: #fff;
+border: none;
+padding: 10px 22px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background: #17488a;
+}
+
+footer {
+background: #1e5aa8;
+color: #fff;
+padding: 16px 0;
+margin-top: 30px;
+text-align: center;
+}

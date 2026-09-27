@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Название сайта</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="container header-inner">
+<div class="logo"></div>
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="about.html">О нас</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</nav>
+<span class="site-name">Название сайта</span>
+</div>
+</header>
+
+<main class="container">
+<h1 id="top">Задание 1</h1>
+
+<p><a href="https://kubsu.ru">Гиперссылка на сайт университета</a></p>
+<p><a href="https://kubsu.ru">HTTPS включительно</a></p>
+
+<figure>
+<img src="kubsu.jpg" alt="Кубанский государственный университет">
+<figcaption>Кубанский государственный университет</figcaption>
+</figure>
+
+<p><a href="pages/inner.html">Ссылка на внутреннюю страницу</a></p>
+<p><a href="index.html">Ссылка на главную страницу</a></p>
+<p><a href="#top">Ссылка на id (вверх)</a></p>
+<p><a href="search.html?q=kubsu&amp;page=2&amp;sort=name">Ссылка с тремя параметрами</a></p>
+<p><a href="../../index.html">Страница на 2 каталога выше</a></p>
+
+<p>Я учусь в Кубанском государственном университете на первом курсе.</p>
+
+<h2>Фрагмент страницы стороннего сайта</h2>
+<figure>
+<img src="shrek.png" alt="Шрек">
+<figcaption>Шрек</figcaption>
+</figure>
+
+<p><a href="">Пустой href</a></p>
+<p><a href="https://kubsu.ru">https://kubsu.ru</a></p>
+<p><a href="https://kubsu.ru" rel="nofollow">Ссылка, запрещённая для поисковиков</a></p>
+<p><a href="secret.html" rel="noindex">Страница, запрещённая для индексации</a></p>
+
+<ol>
+<li><a href="https://kubsu.ru">КубГУ</a></li>
+<li><a href="https://google.com">Google</a></li>
+<li><a href="about.html">About</a></li>
+</ol>
+
+<p><a href="ftp://user:pass@files.kubsu.ru/">FTP-ссылка с авторизацией</a></p>
+
+<h2>Расписание занятий</h2>
+<table>
+<thead>
+<tr>
+<th>Предмет</th>
+<th>Преподаватель</th>
+<th>Аудитория</th>
+<th>Оценка</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Программирование</td>
+<td>Михайличенко</td>
+<td>107</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Мат.анализ</td>
+<td>Силинская С.М</td>
+<td>129</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Физика</td>
+<td>Бурим А.А</td>
+<td>103</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Английский</td>
+<td>Баклагова</td>
+<td>344</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Дифференциальные уравнения</td>
+<td>Чубырь Н.О</td>
+<td>128</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Анкета</h2>
+<form action="#" method="post">
+<p>
+<label for="fio">ФИО</label>
+<input type="text" id="fio" name="fio">
+</p>
+<p>
+<label for="phone">Телефон</label>
+<input type="tel" id="phone" name="phone">
+</p>
+<p>
+<label for="email">E-mail</label>
+<input type="email" id="email" name="email">
+</p>
+<p>
+<label for="birth">Дата рождения</label>
+<input type="date" id="birth" name="birth">
+</p>
+<p>
+Пол:
+<label><input type="radio" name="sex" value="m"> мужской</label>
+<label><input type="radio" name="sex" value="f"> женский</label>
+</p>
+<p>
+<label for="lang">Любимый язык программирования</label>
+<select id="lang" name="lang" multiple>
+<option value="pascal">Pascal</option>
+<option value="c">C</option>
+<option value="cpp">C++</option>
+<option value="js">JavaScript</option>
+</select>
+</p>
+<p>
+<label for="bio">Биография</label>
+<textarea id="bio" name="bio" rows="5"></textarea>
+</p>
+<p>
+<label><input type="checkbox" name="contract"> С контрактом ознакомлен(а)</label>
+</p>
+<p>
+<input type="submit" value="Сохранить">
+</p>
+</form>
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; ПИ22</p>
+</div>
+</footer>
+</body>
+</html>
